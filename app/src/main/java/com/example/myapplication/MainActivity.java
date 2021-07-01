@@ -1,5 +1,7 @@
-xpackage com.example.myapplication;
+package com.example.myapplication;
 
+//package com.example.myapplication;
+//fuck off
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -12,9 +14,13 @@ import android.view.View;
 
 import android.view.Menu;
 import android.view.MenuItem;
-import sqlite;
+import android.widget.Button;
+//sdcs;
+
+//import sqlite;
 public class MainActivity extends AppCompatActivity {
 
+    Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+//    System.out.println("Hello World");
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
