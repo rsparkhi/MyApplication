@@ -14,9 +14,12 @@ import android.view.View;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+
 //import sqlite;
 public class MainActivity extends AppCompatActivity {
 
+    Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    System.out.println("Hello World");
+//    System.out.println("Hello World");
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
